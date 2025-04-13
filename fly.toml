@@ -1,15 +1,15 @@
-# fly.toml app configuration file generated for fly-fastapi-trends on 2025-04-13T15:41:19Z
+# fly.toml app configuration file generated for fly-fastapi-trends-c9xazg on 2025-04-13T18:16:11Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'fly-fastapi-trends'
+app = 'fly-fastapi-trends-c9xazg'
 primary_region = 'otp'
 
 [build]
 
 [http_service]
-  internal_port = 8080
+  internal_port = 8000
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
